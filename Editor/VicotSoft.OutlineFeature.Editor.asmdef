@@ -1,0 +1,18 @@
+{
+    "name": "VicotSoft.OutlineFeature.Editor",
+    "rootNamespace": "VicotSoft",
+    "references": [
+        "GUID:dd87918935e834447b50fcb414269984"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
