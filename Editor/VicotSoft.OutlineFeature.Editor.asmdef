@@ -2,7 +2,7 @@
     "name": "VicotSoft.OutlineFeature.Editor",
     "rootNamespace": "VicotSoft",
     "references": [
-        "GUID:dd87918935e834447b50fcb414269984"
+        "GUID:9ce9012af591e104f9183e83237a7d57"
     ],
     "includePlatforms": [
         "Editor"

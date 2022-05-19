@@ -1,10 +1,13 @@
 Project inspired by and based on [Arvtesh/UnityFx.Outline](https://github.com/Arvtesh/UnityFx.Outline).
   
-# Installation (required)
-1. Add _Outline Feature_ to renderer settings.
-2. Set _Outline Shader_ to `./Shaders/outlineShader`.
-3. Set _Masking Shader_ to `./Shaders/outlineMaskShader`.
-4. Add a default material to render hidden parts with.
+##URP only
+
+# Installation
+1. Download latest package from [Releases](https://github.com/vicot/unity-outline-feature/releases/latest) and import in project.
+2. Add _Outline Feature_ to renderer settings.
+3. Set _Outline Shader_ to `OutlineFeature/Shaders/outlineShader.shader`.
+4. Set _Masking Shader_ to `OutlineFeature/Shaders/outlineMaskShader.shader`.
+5. Add a default material to render hidden parts with.
 
 # Usage
 ## Per Layer

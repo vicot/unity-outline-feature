@@ -71,8 +71,8 @@ MonoBehaviour:
       type: 3}
   m_RendererFeatures:
   - {fileID: -1878332245247344467}
-  - {fileID: -5823638251188075840}
-  m_RendererFeatureMap: adc0de57c6d2eee5c0c28e91dd472eaf
+  - {fileID: 8360240733370095419}
+  m_RendererFeatureMap: adc0de57c6d2eee53b97460da78a0574
   m_UseNativeRenderPass: 0
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
@@ -112,3 +112,34 @@ MonoBehaviour:
   m_ClusteredRendering: 0
   m_TileSize: 32
   m_IntermediateTextureMode: 1
+--- !u!114 &8360240733370095419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba02613ee85300140b55f2938a9696f4, type: 3}
+  m_Name: OutlineFeature
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  settings:
+    renderPassEvent: 500
+    outlineShader: {fileID: 4800000, guid: e5295885b4979fb47857f51ba3c8e6ba, type: 3}
+    maskingShader: {fileID: 4800000, guid: e607fd19cc6e579498f329e6289f9f1f, type: 3}
+    hiddenMaterial: {fileID: 2100000, guid: 8172d55875b042e43a623a0510ccfc61, type: 2}
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 64
+    outline:
+      color: {r: 1, g: 1, b: 1, a: 1}
+      outlineSize: 2
+      flags: 4
+      useGlobalSettings: 1
+      alphaCutoff: 0.5
+      shaderPasses: []
+      theGlobalOne: 1
+      OverrideHiddenMaterial: 0
+      HiddenMaterial: {fileID: 0}
