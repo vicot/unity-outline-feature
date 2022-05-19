@@ -1,6 +1,6 @@
 Project inspired by and based on [Arvtesh/UnityFx.Outline](https://github.com/Arvtesh/UnityFx.Outline).
   
-##URP only
+## URP only
 
 # Installation
 1. Download latest package from [Releases](https://github.com/vicot/unity-outline-feature/releases/latest) and import in project.
@@ -8,6 +8,9 @@ Project inspired by and based on [Arvtesh/UnityFx.Outline](https://github.com/Ar
 3. Set _Outline Shader_ to `OutlineFeature/Shaders/outlineShader.shader`.
 4. Set _Masking Shader_ to `OutlineFeature/Shaders/outlineMaskShader.shader`.
 5. Add a default material to render hidden parts with.
+
+# Demo Scene
+For demo scene to work as intended, current render pipeline in `project settings/Quality/Render Pipeline Asset` must be changed to `OutlineFeature/DemoScene/URP-pipeline`.
 
 # Usage
 ## Per Layer
@@ -35,4 +38,3 @@ Overlapping objects' outlines will be combined when using layer-based mode.
 | - Override Hidden Material                                                                                                                                          | (Only when _Show Hidden_ flag is enabled) Use custom material for hidden parts of the object                                                                                                                                                                                                                 |
 | Flag : Precise                                                                                                                                                      | (**Experimental**) Use if object is transformed with vertex shader. This feature will attempt to make the outline match the final shape of the object                                                                                                                                                        |
 | - Shader Passes                                                                                                                                                     | (Only when _Precise_ flag is enabled) Set which shader passes to use when determining the shape of the object. By default all passes for all sub-meshes are used. If provided, a list of pass numbers must be provided for every submesh in order. Use pass number -1 to render all passes for that submesh. |
-
